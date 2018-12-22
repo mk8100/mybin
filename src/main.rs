@@ -8,6 +8,6 @@ fn main() {
 
     let m = add_two::Matrix::new(2,3,vec![1,2,3,4,5,6]).unwrap();
 
-    println!("matrix m = {}",m);
+    println!("Matrix m = {}",m);
 }
 
