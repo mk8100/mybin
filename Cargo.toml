@@ -6,3 +6,4 @@ edition = "2018"
 
 [dependencies]
 add-two = { path = "../add-two"}
+itertools = "*"
