@@ -1,4 +1,5 @@
 use matrix;
+use matrix::MatrixErr;
 
 fn main() {
 
@@ -7,4 +8,7 @@ fn main() {
     
     let n = matrix::Matrix::new(3,3,vec![1.1,2.2,3.3,4.4,5.5,6.6,7.7,8.8,9.9]).unwrap();
     println!("n:Matrix<f64> = {}",n);
+
+    println!("{}", MatrixErr::NotEnoughDataInVector);
 }
+
