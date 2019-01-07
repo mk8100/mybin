@@ -10,5 +10,6 @@ fn main() {
     println!("n:Matrix<f64> = {}",n);
 
     println!("{}", MatrixErr::NotEnoughDataInVector);
+
 }
 
