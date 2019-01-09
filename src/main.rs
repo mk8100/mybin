@@ -11,5 +11,10 @@ fn main() {
 
     println!("{}", MatrixErr::NotEnoughDataInVector);
 
+    let mv = (0..29).collect::<Vec<_>>();
+
+    for c in mv.chunks(10){
+        println!("{:02?}",c );
+    }   
 }
 
