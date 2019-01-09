@@ -6,3 +6,4 @@ edition = "2018"
 
 [dependencies]
 matrix  = { path = "../matrix"}
+add-two = { path = "../add-two"}
